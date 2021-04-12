@@ -9,9 +9,11 @@
     </head>
     <body>
         <!--Header-->
-        <h1>
+        <div class = "bg-pink-300 py-10">
+            <h1 class = "text-indigo-500 text-center font-extrabold uppercase text-8xl m-8">
             Kai's Kakes Menu
-        </h1>
+            </h1>
+        </div>
         <p>
             We only use the finest ingredients to make these special Kakes. 
         </p>
@@ -45,21 +47,21 @@
             </tr>
         </table>
         </div>
-        <h1 class="my-16 font-bold text-3xl text-center">Ready to Order?</h1>
+        <h1 class="my-10 font-bold text-3xl ml-20">Order Now</h1>
         <form netlify>
-            <label class="block mt-4 font-bold" for="name">Your name?</label>
+            <label class="block mt-4 font-bold" for="name">Name</label>
             <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
             focus:border-purple-500" type="text" id="name" name="name">
 
-            <label class="block mt-4 font-bold" for="email">Your email?</label>
+            <label class="block mt-4 font-bold" for="email">Phone number</label>
             <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
             focus:border-purple-500" type="text" id="email" name="email">
     
-            <label class="block mt-4 font-bold" for="order">What would you like to order?</label>
-            <textarea rows="6" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            <label class="block mt-4 font-bold" for="order">Order item name and quantity:</label>
+            <textarea rows="6" class="p-2 w-2/3 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
             focus:border-purple-500" id="order" name="order"></textarea>
     
-            <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
+            <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Send Order!</button>
         </form>
   </div>
     
